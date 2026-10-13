@@ -2,9 +2,11 @@
 
 Analyze an entire Spotify or TIDAL playlist in rekordbox without loading every track by hand.
 
-rekordbox only analyzes streaming tracks (BPM, key, beatgrid, waveform) when a track is loaded onto a deck, so preparing a big streaming library means dragging thousands of songs onto decks one at a time. This AppleScript does that for you: it walks down a playlist, loads each track onto a deck, and rotates through your decks so several tracks analyze in parallel. Start it, walk away, and come back to an analyzed library.
+For Spotify, rekordbox only analyzes a track (BPM, key, beatgrid, waveform) when it's loaded onto a deck, so preparing a big library means dragging thousands of songs onto decks one at a time. This AppleScript does that for you: it walks down a playlist, loads each track onto a deck, and rotates through your decks so several tracks analyze in parallel. Start it, walk away, and come back to an analyzed library.
 
-Tested with **Spotify** and **TIDAL** in rekordbox on macOS. Other streaming services that rekordbox supports should work the same way.
+Tested with **Spotify** and **TIDAL** in rekordbox on macOS.
+
+> **TIDAL users: try rekordbox's built-in batch analysis first.** Select all the tracks in a TIDAL playlist, Control-click the selection, and choose **Import to collection**. rekordbox imports and analyzes all of them on its own. This doesn't work for Spotify tracks, which is what this script is for. It also works with TIDAL if you'd rather use it.
 
 ## Requirements
 
