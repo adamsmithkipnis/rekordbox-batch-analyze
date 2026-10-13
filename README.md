@@ -1,6 +1,6 @@
 # rekordbox batch analyze
 
-Analyze an entire Spotify or TIDAL playlist in rekordbox without loading every track by hand.
+Analyze an entire Spotify, TIDAL or Apple Music playlist in rekordbox without loading every track by hand.
 
 For Spotify, rekordbox only analyzes a track (BPM, key, beatgrid, waveform) when it's loaded onto a deck, so preparing a big library means dragging thousands of songs onto decks one at a time. This AppleScript does that for you: it walks down a playlist, loads each track onto a deck, and rotates through your decks so several tracks analyze in parallel. Start it, walk away, and come back to an analyzed library.
 
